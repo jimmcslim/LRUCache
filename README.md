@@ -16,6 +16,9 @@ The solution `LRUCache.sln` contains two projects:
 * `DataStructures.Tests.csproj`: the unit test suite for this project.
 Code coverage is measured at **100%** using JetBrains dotCover. The tests are implemented using NUnit 3.
 
+
+![100% Code Coverage in Unit Tests](CodeCoverage.png)
+
 Both projects use .NET Framework 4.7.1 as their target framework.
 
 All operations on this cache have O(1) time complexity; i.e. the time taken to perform an operation
