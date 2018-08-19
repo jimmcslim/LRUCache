@@ -9,6 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataStructures.Tests", "Dat
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{24CA0A96-EF4A-49CC-8056-B6C56E63D1B7}"
 	ProjectSection(SolutionItems) = preProject
+		CodeCoverage.png = CodeCoverage.png
 		README.md = README.md
 	EndProjectSection
 EndProject
