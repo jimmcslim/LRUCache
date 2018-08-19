@@ -77,7 +77,7 @@ namespace FoneDynamics.DataStructures
 
         private void EvictLeastRecentlyUsedIfNecessary()
         {
-            if (_cacheItems.Count != _maximumSize)
+            if (_cacheItems.Count < _maximumSize)
             {
                 return;
             }

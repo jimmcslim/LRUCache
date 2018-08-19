@@ -14,9 +14,12 @@ The solution `LRUCache.sln` contains two projects:
  coding challenge, and a `Cache` class that implements this interface using the LRU policy.
  Both classes are in the `FoneDynamics.DataStructures` namespace. 
 * `DataStructures.Tests.csproj`: the unit test suite for this project.
-Code coverage is measured at **100%** using JetBrains dotCover.
+Code coverage is measured at **100%** using JetBrains dotCover. The tests are implemented using NUnit 3.
 
 Both projects use .NET Framework 4.7.1 as their target framework.
+
+All operations on this cache have O(1) time complexity; i.e. the time taken to perform an operation
+is not influenced by the number of items in the cache.
 
 ## `ICache<TKey, TValue>` Interface
 
