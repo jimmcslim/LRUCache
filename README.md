@@ -2,8 +2,6 @@
 
 ## Overview
 
-This is a solution to the Fone Dynamics Backend Development Coding Challenge.
-
 It is an implementation of a cache that implements a Least Recently Used (LRU) eviction policy.
 The policy is only enforced when the cache is updated via the `AddOrUpdate` method; i.e. there are 
 no background threads periodically sweeping out data that hasn't been recently accessed. 
